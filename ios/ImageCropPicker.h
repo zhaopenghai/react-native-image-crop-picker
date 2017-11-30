@@ -51,7 +51,7 @@ typedef enum selectionMode {
 @property (nonatomic, strong) RCTPromiseResolveBlock resolve;
 @property (nonatomic, strong) RCTPromiseRejectBlock reject;
 @property SelectionMode currentSelectionMode;
-
+@property (nonatomic, strong) NSSring *test;
 @end
 
 #endif
